@@ -23,7 +23,7 @@ const useStyles = makeStyles((theme) => ({
       fontWeight: "bold",
     },
     spacer: {
-      paddingLeft: "300px",
+      paddingLeft: "270px",
     },
     logo:{
         width: "50px",
