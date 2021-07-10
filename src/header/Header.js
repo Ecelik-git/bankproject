@@ -17,10 +17,14 @@ const useStyles = makeStyles((theme) => ({
       marginRight: theme.spacing(2),
     },
     button: {
-      paddingLeft: "50px",
+      marginLeft: "50px",
       color: "white",
       fontSize: "15px",
       fontWeight: "bold",
+      "&:hover":{
+          backgroundColor: "black",
+          color: "yellow",
+      }
     },
     spacer: {
       paddingLeft: "270px",
@@ -90,7 +94,7 @@ const Header = () => {
                 <Link to="/register" className="header__link">
                     <div className="header__option">
                         <span className="header__lineOne">New User?</span>
-                        <span className="header__lineTwo">Register</span>
+                        <span className="header__lineTwo">Sign Up</span>
                     </div>
                 </Link>
                 </Toolbar>
