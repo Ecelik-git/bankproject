@@ -4,8 +4,8 @@
 }
 
 /*--------------------------------------------------
-      ##Footer
-  ---------------------------------------------------*/
+    ##Footer
+---------------------------------------------------*/
 .footer-area {
   background-color: teal;
   background-position: center;
@@ -49,8 +49,8 @@
 }
 
 /*---------------------------------------------------
-      widget styles
-  ----------------------------------------------------*/
+	widget styles
+----------------------------------------------------*/
 
 .widget {
   margin-bottom: 30px;
@@ -102,7 +102,7 @@
   font-size: 18px;
   height: 46px;
   width: 46px;
-  border-radius: 40%;
+  border-radius: 50%;
   background: #fff;
   display: inline-block;
   line-height: 46px;

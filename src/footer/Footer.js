@@ -6,9 +6,7 @@ import TwitterIcon from "@material-ui/icons/Twitter";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import PinterestIcon from "@material-ui/icons/Pinterest";
-import { CopyrightRounded } from "@material-ui/icons";
-
-const Footer = () => {
+function Footer() {
   return (
     <div id="contactus">
       <footer className="footer-area">
@@ -19,28 +17,28 @@ const Footer = () => {
                 <div className="widget">
                   <Link className="widget-title" to={"/"}>
                     <img className="footer__logo" src={logo} alt="logo" />
+                    MTD Bank
                   </Link>
-                  <span className="widget-title pl-1">ABC Bank</span>
                   <ul className="widget-list">
-                    <li>123 Main Dr, St 100</li>
-                    <li>Dallas, TX, 75050</li>
-                    <li>Email:info@mtdbank.com</li>
-                    <li>Phone:234-3434567</li>
+                    <li>112, West road, F1 456 Tram Town.</li>
+                    <li>Office No 2312</li>
+                    <li>info@mtdbank.com</li>
+                    <li>234-3434567</li>
                   </ul>
                 </div>
               </div>
               <div className="col-xl-2 col-lg-3 col-md-6 offset-lg-1">
-                <div className="widget">
+                <div className="widget widget-links">
                   <div className="widget-title">Links</div>
                   <ul className="widget-list">
                     <li>
-                      <Link to={"/"}> FAQs</Link>
+                      <Link to={"/services"}>FAQs</Link>
                     </li>
                     <li>
-                      <Link to={"/"}> About Us</Link>
+                      <Link to={"/about"}>About Us</Link>
                     </li>
                     <li>
-                      <Link to={"/"}> Contact Us</Link>
+                      <Link to={"/contact"}>Contact Us</Link>
                     </li>
                     <li>
                       <Link to={"/"}>Home</Link>
@@ -50,7 +48,7 @@ const Footer = () => {
               </div>
               <div className="col-xl-2 col-lg-3 col-md-6">
                 <div className="widget widget-about">
-                  <h4 className="widget-title">About Us</h4>
+                  <h4 className="widget-title">About Us.</h4>
                   <ul className="widget-list">
                     <li>
                       <Link to={"/about"}>About Us</Link>
@@ -105,34 +103,32 @@ const Footer = () => {
       <div className="footer-bottom">
         <div className="container">
           <div className="row">
-            <div className="col-12 align-self-center">
-              <div className="text-center">
+            <div className="col-lg-6 align-self-center">
+              <div className="text-lg-left text-center">
                 <ul>
                   <li>
-                    <Link to={"/"}>Terms&Conditions</Link>
+                    <Link to={"/"}>Terms & Conditions</Link>
                   </li>
                   <li>
                     <Link to={"/"}>Privacy Policy</Link>
                   </li>
                   <li>
-                    <Link to={"/"}>Site Map</Link>
+                    <Link to={"/"}>Sitemap</Link>
                   </li>
                 </ul>
+              </div>
+            </div>
+            <div className="col-lg-6 align-self-center">
+              <div className="copy-right text-lg-right text-center">
+                @ 2020, MTD Bank all right reserved
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div className="col-12 align-left-center pb-3">
-        <div className="copy-right text-center">
-          <span>
-            <CopyrightRounded />
-          </span>
-          2021, ABC Bank All rights reserved
-        </div>
-      </div>
+      {/* footer area end */}
     </div>
   );
-};
+}
 
 export default Footer;

@@ -7,12 +7,18 @@ body {
   margin: 0;
 }
 
-.banner {
-  height: 300px;
+.pd-100 {
+  padding: 100px 0;
 }
+
 .pdt-50 {
   padding-top: 50px;
 }
+
+.p-20 {
+  padding: 20px 20px 20px 20px;
+}
+
 fieldset {
   margin: 20px !important;
   padding: 0 10px 10px !important;
@@ -26,4 +32,8 @@ legend {
 }
 fieldset > legend {
   float: left;
+}
+
+button:hover {
+  color: yellow;
 }

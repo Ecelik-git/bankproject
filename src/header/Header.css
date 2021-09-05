@@ -20,7 +20,9 @@
   border: 0px;
   font-weight: bolder;
 }
-.head__menu:hover {
+/* Latest Changes for hover */
+.header__link:hover {
+  text-decoration: none;
   background-color: rgb(39, 39, 39);
   color: yellow;
 }

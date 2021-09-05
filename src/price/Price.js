@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Price.css";
 
-const Price = () => {
+function Price() {
   return (
     <div id="package" className="pricing-area">
       <div className="container">
@@ -25,20 +25,20 @@ const Price = () => {
               <div className="pricing-details">
                 <h2 className="pricing-cost">5.50%</h2>
                 <h6 className="pricing-subtitle">For a month</h6>
-                <h4 className="pricing-title">Basic Plan</h4>
+                <h4 className="pricing-title">Basic</h4>
               </div>
               <ul className="pricing-list">
                 <li>
-                  <Link to={"/services"}>Maximum Deposit $1000</Link>
+                  <Link to={"/services"}>Miximum Deposit $10,00</Link>
                 </li>
                 <li>
-                  <Link to={"/services"}>Minimum Deposit $100</Link>
+                  <Link to={"/services"}>Minimum Deposit $10</Link>
                 </li>
                 <li>
-                  <Link to={"/services"}>Up to 5 Users available</Link>
+                  <Link to={"/services"}>Up to 50 Users available</Link>
                 </li>
                 <li>
-                  <Link to={"/services"}>Free Internet Banking</Link>
+                  <Link to={"/services"}>Free Banking</Link>
                 </li>
                 <li>
                   <Link className="btn btn-blue" to={"/services"}>
@@ -53,20 +53,20 @@ const Price = () => {
               <div className="pricing-details">
                 <h2 className="pricing-cost">7.50%</h2>
                 <h6 className="pricing-subtitle">For a month</h6>
-                <h4 className="pricing-title">Premium Plan</h4>
+                <h4 className="pricing-title">Premium</h4>
               </div>
               <ul className="pricing-list">
                 <li>
-                  <Link to={"/services"}>Maximum Deposit $10000</Link>
+                  <Link to={"/services"}>Miximum Deposit $10,00</Link>
                 </li>
                 <li>
-                  <Link to={"/services"}>Minimum Deposit $1000</Link>
+                  <Link to={"/services"}>Minimum Deposit $10</Link>
                 </li>
                 <li>
-                  <Link to={"/services"}>Up to 10 Users available</Link>
+                  <Link to={"/services"}>Up to 50 Users available</Link>
                 </li>
                 <li>
-                  <Link to={"/services"}>Free Internet Banking</Link>
+                  <Link to={"/services"}>Free Banking</Link>
                 </li>
                 <li>
                   <Link className="btn btn-blue " to={"/services"}>
@@ -85,16 +85,16 @@ const Price = () => {
               </div>
               <ul className="pricing-list">
                 <li>
-                  <Link to={"/services"}>Maximum Deposit $50000</Link>
+                  <Link to={"/services"}>Miximum Deposit $10,00</Link>
                 </li>
                 <li>
-                  <Link to={"/services"}>Minimum Deposit $0</Link>
+                  <Link to={"/services"}>Minimum Deposit $10</Link>
                 </li>
                 <li>
-                  <Link to={"/services"}>Up to 20 Users available</Link>
+                  <Link to={"/services"}>Up to 50 Users available</Link>
                 </li>
                 <li>
-                  <Link to={"/services"}>Free Internet Banking</Link>
+                  <Link to={"/services"}>Free Banking</Link>
                 </li>
                 <li>
                   <Link className="btn btn-blue " to={"/services"}>
@@ -108,6 +108,6 @@ const Price = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Price;
